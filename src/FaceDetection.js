@@ -126,7 +126,7 @@ export default function FaceDetection() {
     }, []);
 
     return (
-        <div className="flex flex-col items-center">
+        <div className="container">
             <Webcam
                 ref={webcamRef}
                 style={{
@@ -140,11 +140,9 @@ export default function FaceDetection() {
                 ref={canvasRef}
                 width={640}
                 height={480}
-                style={{ border: "2px solid #000" }}
+                className="video-canvas"
             />
-            <h2 className="mt-4 text-lg font-bold">
-                Head Shape: {headShape}
-            </h2>
+            <h2 className="title">Head Shape: {headShape}</h2>
         </div>
     );
 }
