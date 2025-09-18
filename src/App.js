@@ -4,7 +4,7 @@ import FaceDetection from "./FaceDetection";
 function App() {
   return (
     <div className="App">
-      <h1>Face Shape Detector</h1>
+      <h1 className="app-title">Face Shape Detector</h1>
       <FaceDetection />
     </div>
   );

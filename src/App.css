@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+  text-align: center; /* Center inline text like <h1> */
+}
+
+/* Title styling */
+.app-title {
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .App-logo {
